@@ -371,7 +371,7 @@ public class DownloadActivity extends BaseActivity {
 
         public abstract Uri getDirectoryUri();
 
-        public int getOverwriteMessageId() {
+        int public getOverwriteMessageId() {
             return overwriteMessageId;
         }
 
